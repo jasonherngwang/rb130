@@ -1,0 +1,30 @@
+{
+  "Unit Tests": {
+    "coverage": {
+      "/Users/jasonwang/Projects/launch-school/rb130/challenges/easy/roman_numerals/lib/roman_numerals.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          18,
+          null,
+          null,
+          1,
+          56,
+          18,
+          18,
+          18,
+          18,
+          18,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1648431056
+  }
+}

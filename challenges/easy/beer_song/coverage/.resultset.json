@@ -1,0 +1,42 @@
+{
+  "Unit Tests": {
+    "coverage": {
+      "/Users/jasonwang/Projects/launch-school/rb130/challenges/easy/beer_song/lib/beer_song.rb": {
+        "lines": [
+          1,
+          1,
+          110,
+          110,
+          null,
+          110,
+          101,
+          9,
+          3,
+          6,
+          3,
+          3,
+          3,
+          null,
+          3,
+          3,
+          3,
+          null,
+          null,
+          110,
+          null,
+          null,
+          null,
+          1,
+          108,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1648492190
+  }
+}

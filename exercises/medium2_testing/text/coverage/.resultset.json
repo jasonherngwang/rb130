@@ -1,0 +1,24 @@
+{
+  "Minitest": {
+    "coverage": {
+      "/Users/jasonwang/Projects/launch-school/rb130/exercises/medium2_testing/text/text.rb": {
+        "lines": [
+          1,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1648355143
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Unit Tests": {
+    "coverage": {
+      "/Users/jasonwang/Projects/launch-school/rb130/challenges/easy/series/lib/series.rb": {
+        "lines": [
+          1,
+          1,
+          14,
+          null,
+          null,
+          1,
+          14,
+          14,
+          12,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1648494011
+  }
+}

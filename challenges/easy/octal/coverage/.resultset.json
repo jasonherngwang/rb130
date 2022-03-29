@@ -1,0 +1,21 @@
+{
+  "Unit Tests": {
+    "coverage": {
+      "/Users/jasonwang/Projects/launch-school/rb130/challenges/easy/octal/lib/octal.rb": {
+        "lines": [
+          1,
+          1,
+          15,
+          null,
+          null,
+          1,
+          15,
+          36,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1648484645
+  }
+}

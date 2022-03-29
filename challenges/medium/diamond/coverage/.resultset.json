@@ -1,0 +1,31 @@
+{
+  "Unit Tests": {
+    "coverage": {
+      "/Users/jasonwang/Projects/launch-school/rb130/challenges/medium/diamond/lib/diamond.rb": {
+        "lines": [
+          1,
+          1,
+          18,
+          11,
+          null,
+          null,
+          1,
+          4,
+          4,
+          4,
+          4,
+          null,
+          4,
+          4,
+          null,
+          4,
+          18,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1648514869
+  }
+}

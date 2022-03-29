@@ -1,0 +1,43 @@
+{
+  "Unit Tests": {
+    "coverage": {
+      "/Users/jasonwang/Projects/launch-school/rb130/challenges/medium/meetups/lib/meetups.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          52,
+          52,
+          null,
+          null,
+          1,
+          52,
+          null,
+          52,
+          1631,
+          null,
+          52,
+          45,
+          null,
+          38,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1648530844
+  }
+}

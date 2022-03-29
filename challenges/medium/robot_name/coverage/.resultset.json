@@ -1,0 +1,35 @@
+{
+  "Unit Tests": {
+    "coverage": {
+      "/Users/jasonwang/Projects/launch-school/rb130/challenges/medium/robot_name/lib/robot_name.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          7,
+          null,
+          null,
+          1,
+          8,
+          8,
+          8,
+          null,
+          null,
+          1,
+          null,
+          1,
+          11,
+          33,
+          44,
+          11,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1648522177
+  }
+}

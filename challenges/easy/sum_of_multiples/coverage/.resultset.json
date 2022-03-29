@@ -1,0 +1,31 @@
+{
+  "Unit Tests": {
+    "coverage": {
+      "/Users/jasonwang/Projects/launch-school/rb130/challenges/easy/sum_of_multiples/lib/sum_of_multiples.rb": {
+        "lines": [
+          1,
+          1,
+          9,
+          null,
+          null,
+          1,
+          5,
+          null,
+          null,
+          1,
+          29,
+          null,
+          null,
+          1,
+          null,
+          1,
+          20,
+          17,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1648487771
+  }
+}

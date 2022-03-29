@@ -1,0 +1,29 @@
+{
+  "Unit Tests": {
+    "coverage": {
+      "/Users/jasonwang/Projects/launch-school/rb130/challenges/easy/point_mutations/lib/point_mutations.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          9,
+          null,
+          null,
+          1,
+          11,
+          11,
+          null,
+          10,
+          10,
+          108,
+          null,
+          10,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1648427613
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "Unit Tests": {
+    "coverage": {
+      "/Users/jasonwang/Projects/launch-school/rb130/challenges/medium/clock/lib/clock.rb": {
+        "lines": [
+          1,
+          1,
+          29,
+          null,
+          null,
+          1,
+          19,
+          null,
+          null,
+          1,
+          4,
+          null,
+          null,
+          1,
+          6,
+          null,
+          null,
+          1,
+          4,
+          null,
+          null,
+          1,
+          12,
+          12,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          10,
+          10,
+          10,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1648524206
+  }
+}
