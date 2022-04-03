@@ -30,10 +30,10 @@ class Todo
     "[#{done? ? DONE_MARKER : UNDONE_MARKER}] #{title}"
   end
 
-  def ==(otherTodo)
-    title == otherTodo.title &&
-      description == otherTodo.description &&
-      done == otherTodo.done
+  def ==(other_todo)
+    title == other_todo.title &&
+      description == other_todo.description &&
+      done == other_todo.done
   end
 end
 

@@ -10,7 +10,7 @@ def none?(collection)
   true
 end
 
-# Using #all?
+# Using #any?
 def any?(collection)
   collection.each do |elem|
     return true if yield(elem)

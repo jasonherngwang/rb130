@@ -26,6 +26,12 @@ def count(collection, &block)
   (yield(collection[0]) ? 1 : 0) + count(collection[1..-1], &block)
 end
 
+def count(collection)
+  collection.reduce(0) do |count, obj|
+    count += yield(obj) ? 1 : 0
+  end
+end
+
 p count([1,2,3,4,5]) { |value| value.odd? } == 3
 p count([1,2,3,4,5]) { |value| value % 3 == 1 } == 2
 p count([1,2,3,4,5]) { |value| true } == 5

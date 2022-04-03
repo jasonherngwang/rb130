@@ -13,6 +13,16 @@ class PerfectNumber
     end
   end
 
+  # def self.positive_divisors(num)
+  #   divisors = []
+
+  #   (1..Math.sqrt(num)).each do |x|
+  #     divisors << x << num / x if num % x == 0
+  #   end
+
+  #   divisors.uniq.sort - [num]
+  # end
+
   # class << self opens the definition body of the anonymous singleton class of PerfectNumber.
   # Invoke #private on the PerfectNumber class's own class (metaclass).
   class << self

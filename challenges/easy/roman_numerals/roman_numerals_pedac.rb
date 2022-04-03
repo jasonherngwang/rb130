@@ -40,17 +40,12 @@ Examples, Test Cases
 
 Data Structure, Algorithm
 ------------------------------------------
-- Create a hash to lookup the Roman numeral for each number "place".
+- Create a hash or array to lookup the Roman numeral for each number "place".
 - Find thousands, hundreds, tens, and ones by examining the number's digits.
   - Store each in a variable.
 - Substitute each of the four variables with the Roman numeral.
-  - Use empty if number is 0.
+  - Use empty string if number is 0.
 - Join all numerals.
-
-Helper function: Convert integer into Roman numeral
-- If number < 5
-  - 
-
 =end
 
 NUMERALS_ONES      = %w(I II III IV V VI VII VIII IX)

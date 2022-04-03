@@ -1,5 +1,5 @@
-def each_with_object(collection, obj)
-  collection.each do |elem|
+def each_with_object(array, obj)
+  array.each do |elem|
     yield(elem, obj)
   end
   obj

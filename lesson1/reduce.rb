@@ -7,17 +7,12 @@
 
 # => 6
 
-array = [1, 2, 3, 4, 5]
-
 def reduce(array, acc = nil)
   return nil if array.empty?
 
-  index = 0
-
   if acc.nil?
-    acc = array[0]
-    array = array[1..-1]
-    index += 1
+    acc = array.first
+    array.shift
   end
 
   array.each do |elem|
@@ -27,6 +22,9 @@ def reduce(array, acc = nil)
   acc
 end
 
-p reduce(array) { |acc, num| acc + num }                    # => 15
-p reduce(array, 10) { |acc, num| acc + num }                # => 25
+p reduce([1, 2, 3, 4, 5])     { |acc, num| acc + num }        # => 15
+p reduce([1, 2, 3, 4, 5], 10) { |acc, num| acc + num }        # => 25
 # p reduce(array) { |acc, num| acc + num if num.odd? }        # => NoMethodError: undefined method `+' for nil:NilClass
+
+p reduce(['a', 'b', 'c']) { |acc, value| acc += value }       # => 'abc'
+p reduce([[1, 2], ['a', 'b']]) { |acc, value| acc + value }   # => [1, 2, 'a', 'b']

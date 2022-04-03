@@ -34,7 +34,7 @@ class Scrabble
 
   def score
     return 0 if @word.gsub(/[^a-z]/i, '').empty?
-    @word.chars.map! { |char| SCORES[char.upcase] }.sum
+    @word.chars.map { |char| SCORES[char.upcase] }.sum
   end
 
   def self.score(word)

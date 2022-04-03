@@ -5,7 +5,7 @@ require 'minitest/reporters'
 Minitest::Reporters.use!
 
 
-require_relative 'car'          # Specify local directory
+require_relative 'car'          # Specify local directory file path
 
 class CarTest < Minitest::Test  # CarTest inherits all required testing methods.
   # setup
@@ -54,11 +54,11 @@ class CarTest < Minitest::Test  # CarTest inherits all required testing methods.
   end
 
   # Skip
-  # def test_bad_wheels
-  #   skip "Skip bad wheels test" # Skip test and provide message.
-  #   car = Car.new
-  #   assert_equal(3, car.wheels) # Failing test
-  # end
+  def test_bad_wheels
+    skip "Skip bad wheels test" # Skip test and provide message.
+    car = Car.new
+    assert_equal(3, car.wheels) # Failing test
+  end
 
   # teardown: not required
 

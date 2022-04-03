@@ -31,7 +31,6 @@ Input validation
 - If any characters in input octal string are NOT 0-7, return 0.
 - Convert string to integer.
 - Split integer into array of digits.
-- Reverse the array.
 - Iterate through the array, keeping track of the index. Perform transformation:
   - Transform each element to the product of itself and 8^index
 - Sum the array

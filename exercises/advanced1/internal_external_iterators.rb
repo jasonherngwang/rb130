@@ -16,13 +16,13 @@ Terms
   - 1! == 1
 =end
 
-factorial = Enumerator.new do |y|
-  i = 0
-  x = 1
+factorial = Enumerator.new do |yielder|
+  number = 0
+  accumulator = 1
   loop do
-    y << x
-    i += 1
-    x *= i
+    accumulator = number.zero? ? 1 : number
+    yielder << accumulator
+    number += 1
   end
 end
 

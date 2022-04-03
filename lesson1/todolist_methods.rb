@@ -30,10 +30,10 @@ class Todo
     "[#{done? ? DONE_MARKER : UNDONE_MARKER}] #{title}"
   end
 
-  def ==(otherTodo)
-    title == otherTodo.title &&
-      description == otherTodo.description &&
-      done == otherTodo.done
+  def ==(other_todo)
+    title == other_todo.title &&
+      description == other_todo.description &&
+      done == other_todo.done
   end
 end
 
@@ -150,7 +150,8 @@ class TodoList
   end
 
   def mark_done(todo_title)
-    find_by_title(todo_title) && find_by_title(todo_title).done!
+    todo = find_by_title(todo_title)
+    todo.done! if todo
   end
 
   def mark_all_done
@@ -171,22 +172,34 @@ list.add(todo1)
 list.add(todo2)
 list.add(todo3)
 puts list
+puts
 
+puts "Mark 2nd todo as done."
 list.mark_done_at(1)
 puts list
 puts
 
+puts "Find by title: milk, sandwich"
 puts list.find_by_title("Buy milk")
 puts list.find_by_title("Buy sandwich")        # Returns nil
+puts
 
+puts "All done and All not done"
 puts list.all_done
 puts list.all_not_done
+puts
 
+puts "Mark gym done"
 list.mark_done("Go to gym")
+list.mark_done("Go to supermarket")            # Not a todo
 puts list
+puts
 
+puts "Mark all done"
 list.mark_all_done
 puts list
+puts
 
+puts "Mark all undone"
 list.mark_all_undone
 puts list
